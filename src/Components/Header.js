@@ -1,6 +1,5 @@
 import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 import Homelogo from "./images/Homelogo.svg";
-import Button from "../Pages/Button";
 function Header() {
   return (
     <>
@@ -44,7 +43,6 @@ function Header() {
               <Nav.Link href="/bookDemo">BookDemo</Nav.Link>
               <Nav.Link href="/views">Views</Nav.Link>
             </Nav>
-            <Button />
           </Navbar.Collapse>
         </Container>
       </Navbar>
